@@ -34,8 +34,8 @@ Config--> GigabitEthernet 0/1 --> (ON) --> all Switch Default Gateway Address <b
 
 ## DNS Server
 Go DNS --> Name & Server IP address add (facebook, messenger, amazon, gmail) <br>
-# Must on the DNS Service
 
+## Must on the DNS Service
 Must edit on index.html all Server index.html <br>
 
 ## E-mail Server
