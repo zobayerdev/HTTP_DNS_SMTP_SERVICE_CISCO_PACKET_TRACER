@@ -1,0 +1,40 @@
+## Switch-01:- Network-01
+<p>
+Default Gateway: 192.168.10.1 <br>
+pc1-- 192.168.10.2 <br>
+pc2-- 192.168.10.3 <br>
+DNS: 192.168.20.4 <br>
+</p>
+
+## Switch-02:- Network-02 (DNS Server)
+
+Default Gateway: 192.168.20.1 <br>
+DNS: 192.168.20.4 <br>
+server : 192.168.20.4 (DNS and Server IP address are also Same) <br>
+pc1-- 192.168.20.2 <br>
+
+
+## Switch-03:- Network-03
+
+Default Gateway: 192.168.30.1 <br>
+Facebook: 192.168.30.2 <br>
+Amazon: 192.168.30.3 <br>
+Messenger: 192.168.30.4 <br>
+Gmail: 192.168.30.5 <br>
+DNS Server: 192.168.20.4 <br>
+
+## Router :- 
+
+Connection on copper Straight Through <br>
+
+Config--> GigabitEthernet 0/1 --> (ON) --> all Switch Default Gateway Address <br>
+
+## DNS Server
+Go DNS --> Name & Server IP address add (facebook, messenger, amazon, gmail) <br>
+# Must on the DNS Service
+
+Must edit on index.html all Server index.html <br>
+
+## E-mail Server
+Go--> Set Domain name (gmail.com), user, password. <br>
+1. Setup E-mail (user & password) all PC. <br>
